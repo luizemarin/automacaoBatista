@@ -1,0 +1,21 @@
+{
+  "name": "automacaoBatista",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/luizemarin/automacaoBatista.git",
+  "author": "Luiz <luizemarin@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:chrome": "cypress run --browser chrome",
+    "cy:firefox": "cypress run --browser firefox"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "cypress": "^9.3.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "faker": "5.5.3"
+  }
+}
